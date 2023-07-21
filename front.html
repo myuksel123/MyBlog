@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adventure Blog</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Adventure Blog</h1>
+  </header>
+  <main>
+    <section id="add-blog-post">
+      <h2>Add a New Blog Post</h2>
+      <form id="blog-form">
+        <label for="blog-title">Title:</label>
+        <input type="text" id="blog-title" required>
+        <label for="blog-date">Date:</label>
+        <input type="date" id="blog-date" required>
+        <label for="blog-content">Content:</label>
+        <textarea id="blog-content" rows="4" required></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+    <section id="adventure-list">
+      <!-- Dynamic content will be added here using JavaScript -->
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2023 Adventure Blog. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1rem;
+  }
+  
+  #adventure-list {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  
+  #add-blog-post {
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  #add-blog-post h2 {
+    margin-bottom: 1rem;
+  }
+  
+  #add-blog-post form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  #blog-list {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0.5rem;
+    margin-top: auto;
+  }
+  
+    
